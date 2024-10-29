@@ -1,5 +1,19 @@
 body {background-color: rgb(74, 78, 77);}
 h1 {color: rgb(15, 14, 14);text-align: center;}
-p{color: brown;font-size: xx-large;}
+p{color: brown;font-size: xx-large;
+border: 10px solid red;
+width: 12em;
+height: 1rem;
+margin: 2em;
+padding: 2em;}
 h2{color: bisque;}
 h3{color: darkblue;}
+ul{list-style-type:none;margin: 0;padding: 0;overflow: hidden;}
+li{float: none;}
+li a {display: block;padding: 25px;background-color: #fffefe;}
+
+:root {--main-bg-color: red}
+
+h1 {background-color: var(--main-bg-color);}
+
+.padding-md {padding: 1.25em;}
